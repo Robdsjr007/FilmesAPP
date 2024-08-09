@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
 
-    containerJogos:{
+    containerFilmes:{
         paddingTop:20,
         paddingBottom:16,
         paddingRight: 16,
@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
         paddingLeft: 4
     },
     imagem:{
+        resizeMode: 'cover',
         width: '100%',
         height: 170,
         borderRadius:8

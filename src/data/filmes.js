@@ -1,4 +1,4 @@
-const DATA = 
+const Filmes = 
 [
     {
         id:"01",
@@ -72,4 +72,4 @@ const DATA =
     }
 ]
 
-export default DATA;
+export default Filmes;
