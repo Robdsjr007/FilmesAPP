@@ -44,10 +44,7 @@ export default function Home() {
             imagem = {item.imagem}
             nota = {item.nota}
             sinopse={item.sinopse}
-            
-            
-            
-            ></CardMovies>
+            />
       )}
       />
       <FlatList
@@ -60,7 +57,9 @@ export default function Home() {
             <CardMovies
             titulo = {item.nome}
             imagem = {item.imagem}
-            nota = {item.nota} />
+            nota = {item.nota}
+            sinopse={item.sinopse}
+            />
       )}
       />
     </View>

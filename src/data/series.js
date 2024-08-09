@@ -1,4 +1,4 @@
-const DATA = 
+const Series = 
 [
     {
         id:"01",
@@ -72,4 +72,4 @@ const DATA =
     }
 ]
 
-export default DATA;
+export default Series;
